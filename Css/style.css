@@ -356,6 +356,9 @@ header .logo,
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  color: white;
+    opacity: 0.7;
+}
 }
 @media (max-width: 600px) {
   .landing-page .Text {
