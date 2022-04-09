@@ -189,9 +189,20 @@ body {
   border-color: transparent transparent transparent var(--main-color);
   transform: translateY(-50%);
 }
-.nav-bullets .bullets:hover {
-  display: block;
-  opacity: 1;
+@media (max-width: 766px) {
+  .nav-bullets .bullets:hover,
+  .nav-bullets .bullets:hover::before,
+  .nav-bullets .bullets:hover::after {
+    cursor: default;
+  }
+}
+@media (min-width: 767px) {
+  .nav-bullets .bullets:hover,
+  .nav-bullets .bullets:hover::before,
+  .nav-bullets .bullets:hover::after {
+    display: block;
+    opacity: 1;
+  }
 }
 .nav-bullets .bullets.show,
 .nav-bullets .bullets.show::before,
