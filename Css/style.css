@@ -189,9 +189,7 @@ body {
   border-color: transparent transparent transparent var(--main-color);
   transform: translateY(-50%);
 }
-.nav-bullets .bullets:hover,
-.nav-bullets .bullets:hover::before,
-.nav-bullets .bullets:hover::after {
+.nav-bullets .bullets:hover {
   display: block;
   opacity: 1;
 }
