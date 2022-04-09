@@ -266,7 +266,7 @@ const onSectionLeavesViewport = (section) => {
     {
       root: null,
       rootMargin: "0px",
-      threshold: 0.75,
+      threshold: 0.4,
     }
   );
   observer.observe(section);
